@@ -1,5 +1,5 @@
 # encapsulation = This is the concept of wrapping data and methods 
-# that work with data in one unit. 
+# that work in one unit. 
 
 # Access modifiers:1.Private 2.Public 3.Protected
 # Pyhton does not recommend protected modifier
