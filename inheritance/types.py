@@ -33,7 +33,7 @@ class Parent:
         else: 
             return ('Average hard working!') 
 class Child(Parent, Grandparent): 
-    phone = 'Vivo'  
+    phone = 'Samsung'  
 child_object = Child() 
 print('My house is a ',child_object.house, ' and I have a ', child_object.car, 
       ' and a ', child_object.phone,' phone.') 
