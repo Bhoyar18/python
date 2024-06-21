@@ -18,6 +18,14 @@
 # 2.MULTIPLE INHERITANCE = In multiple inheritance, a single child 
 # class is inherited from two or more parent(base) classes. It means the 
 # child(derived) class has access to all the parent classes' methods and attributes.
+# SYNTAX:
+# Class Base1:
+#        code of class
+# Class Base2:
+#      code of class
+# Class Derived(Base1, Base2):
+#      code of the class
+
 # class Grandparent: 
 #     house = 'Three storeyed building' 
 #     def age(self, number): 
