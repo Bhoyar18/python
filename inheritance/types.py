@@ -34,8 +34,8 @@ class Parent:
             return ('Average hard working!') 
 class Child(Parent, Grandparent): 
     phone = 'Samsung'  
-child_object = Child() 
-print('My house is a ',child_object.house, ' and I have a ', child_object.car, 
-      ' and a ', child_object.phone,' phone.') 
-print('My grandparent is 78 years old. He is ', child_object.age(78)) 
-print('My father works for 47 hours a week. He is ', child_object.work(47))
+object = Child() 
+print('My house is a ',object.house, ' and I have a ', object.car, 
+      ' and a ', object.phone,' phone.') 
+print('My grandparent is 78 years old. He is ', object.age(78)) 
+print('My father works for 47 hours a week. He is ', object.work(47))
