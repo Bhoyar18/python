@@ -42,5 +42,14 @@
 
 # 3.MULTILEVEL INHERITANCE = A type of inheritance where a class is
 #  derived from a class which is also derived from another class
+# When a base class is derived by a derived class which is 
+# derived by another class,
 # for example:Class C inherits from Class B, and Class B inherits 
 # from Class A.
+# SYNTAX
+# class BaseClass:
+    # Base class code
+# class DerivedClass1(BaseClass):
+    # Derived class 1 code
+# class DerivedClass2(DerivedClass1):
+    # Derived class 2 code
