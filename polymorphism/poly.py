@@ -3,8 +3,8 @@
 # Polymorphism is divided into two categories: 1.Overloading 2.Overriding 
 # Overloading = ek hi class ke andar same name ko 2 method banate hai lekin, 
 # parameters differnet ho tab is situation ki method overloading bolte hai
-# NOTE = python directly overloading support nhi krta hai ,
-# multiple dispatch ke through support krta hai   
+# NOTE = python does not support overloading directly ,through
+# multiple dispatch python supports overloading   
 # class A:
 #     def new(self,x=0,y=0,z=0):
 #         return x+y+z
