@@ -41,17 +41,34 @@
 # obj.complete_details
 
 # Public:Public members are accessible from anywhere, 
-# both inside and outside the class. 
+# both inside and outside the class.
+
+class Person:
+    # constructor
+    def __init__(self, name, age):
+        # public data members
+        self.personName = name
+        self.personAge = age
+    # public member function
+    def displayAge(self):
+        # accessing public data member
+        print("Age of the person is : ", self.personAge )
+# creating object of the class
+obj = Person("Vaishu", 22)
+# accessing public data member
+print("Name of the person is : ", obj.personName)
+# calling public member function of the class
+obj.displayAge() 
 
 # Constructor
-class Faculty:
-    def __init__(self,a,b,c):
-        self.id=a
-        self.name=b
-        self.age=c
-    def display(self):
-        print("Faculty id :",self.id)
-        print("Faculty name :",self.name)
-        print("Faculty age :",self.age)
-a=Faculty(1,"Vaishu",22)
-a.display()        
+# class Faculty:
+#     def __init__(self,a,b,c):
+#         self.id=a
+#         self.name=b
+#         self.age=c
+#     def display(self):
+#         print("Faculty id :",self.id)
+#         print("Faculty name :",self.name)
+#         print("Faculty age :",self.age)
+# a=Faculty(1,"Vaishu",22)
+# a.display()        
