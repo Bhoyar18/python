@@ -1,7 +1,12 @@
 # encapsulation = This is the concept of wrapping data and methods 
 # that work in one unit. 
+# In Python, encapsulation is achieved by using access modifiers to 
+# control the visibility of class attributes and methods.
 
-# Access modifiers:1.Private 2.Public 3.Protected
+# Access modifiers are keywords that determine the visibility of 
+# class members, which include attributes and methods. There are three 
+# access modifiers in Python: public, protected, and private.
+# 1.Private 2.Public 3.Protected
 # Pyhton does not recommend protected modifier
 
 # Private:In the case of private access modifiers, the variables and 
@@ -35,8 +40,8 @@
 # Student.school="Maharishi Vidhya Mnadir"
 # obj.complete_details
 
-
-
+# Public:Public members are accessible from anywhere, 
+# both inside and outside the class. 
 
 # Constructor
 class Faculty:
