@@ -9,7 +9,7 @@
 # 1.Private 2.Public 3.Protected
 # Pyhton does not recommend protected modifier
 
-# Private:In the case of private access modifiers, the variables and 
+# PRIVATE:In the case of private access modifiers, the variables and 
 # functions can only be accessed within the class. The private restriction 
 # level is the highest for any class. To declare the data members as 
 # private, we use a double underscore “_­_” sign before the data members 
@@ -40,25 +40,51 @@
 # Student.school="Maharishi Vidhya Mnadir"
 # obj.complete_details
 
-# Public:Public members are accessible from anywhere, 
+
+class Person2:
+    # private members
+    __name = None
+    __roll = None
+    __branch = None
+    # constructor
+    def __init__(self, name, roll, branch):
+        self.__name = name
+        self.__roll = roll
+        self.__branch = branch
+    # private member function
+    def __displayDetails(self):
+        # accessing private data members
+        print("Name of the student: ", self.__name)
+        print("Roll of student: ", self.__roll)
+        print("Branch of student: ", self.__branch)
+    # public member function
+    def accessPrivateFunction(self):
+        # accessing private member function
+        self.__displayDetails()
+# creating object
+obj = Person2("Vaishu", 1706256, "Computer Science")
+# calling public member function of the class
+obj.accessPrivateFunction()
+
+# PUBLIC:Public members are accessible from anywhere, 
 # both inside and outside the class.
 
-class Person:
-    # constructor
-    def __init__(self, name, age):
-        # public data members
-        self.personName = name
-        self.personAge = age
-    # public member function
-    def displayAge(self):
-        # accessing public data member
-        print("Age of the person is : ", self.personAge )
-# creating object of the class
-obj = Person("Vaishu", 22)
-# accessing public data member
-print("Name of the person is : ", obj.personName)
-# calling public member function of the class
-obj.displayAge() 
+# class Person:
+#     # constructor
+#     def __init__(self, name, age):
+#         # public data members
+#         self.personName = name
+#         self.personAge = age
+#     # public member function
+#     def displayAge(self):
+#         # accessing public data member
+#         print("Age of the person is : ", self.personAge )
+# # creating object of the class
+# obj = Person("Vaishu", 22)
+# # accessing public data member
+# print("Name of the person is : ", obj.personName)
+# # calling public member function of the class
+# obj.displayAge() 
 
 # Constructor
 # class Faculty:
