@@ -4,7 +4,11 @@
 # Access modifiers:1.Private 2.Public 3.Protected
 # Pyhton does not recommend protected modifier
 
-# Private
+# Private:In the case of private access modifiers, the variables and 
+# functions can only be accessed within the class. The private restriction 
+# level is the highest for any class. To declare the data members as 
+# private, we use a double underscore “_­_” sign before the data members 
+# of the class. 
 # class Student:
 #     school="MVM"
 #     def __init__(self,name,age):
@@ -30,6 +34,8 @@
 # obj.marks(78,87)
 # Student.school="Maharishi Vidhya Mnadir"
 # obj.complete_details
+
+
 
 
 # Constructor
