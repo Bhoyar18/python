@@ -57,7 +57,11 @@ from functools import reduce
 # fin_list = list(map(cube, org_list))
 # print(fin_list)
 
-# lambda function = They're commonly referred to as anonymous functions.
+# lambda function = They're commonly referred to as anonymous(defined without a name) functions.
 # Notice that the anonymous function does not have a return keyword. 
 # This is because the anonymous function will automatically return the
 #  result of the expression in the function once it is executed.
+# that can take any number of arguments but, unlike normal functions,
+#  evaluates and returns only one expression.
+calc = lambda num: "Even number" if num % 2 == 0 else "Odd number"
+print(calc(20))
