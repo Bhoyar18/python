@@ -34,7 +34,6 @@ from functools import reduce
 
 # map function()= jab saare objects ke upar same operations 
 # perform krna hota hai to map function ka use hota hai
-
 # list1=[5,10,15,20,25]
 # def add(n):
 #     return n+5
@@ -42,7 +41,6 @@ from functools import reduce
 # print(x)
 # print(tuple(x))
 # print(list(x))
-
 
 # my_list=[10,25,30,45,50,65,70,85,23]
 # def odd_even(n):
@@ -52,3 +50,9 @@ from functools import reduce
 #         return 'odd'
 # x=list(map(odd_even,my_list))
 # print(x)
+
+org_list = [1, 2, 3, 4, 5]
+def cube(num):
+    return num**3
+fin_list = list(map(cube, org_list))
+print(fin_list)
