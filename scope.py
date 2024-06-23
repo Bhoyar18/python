@@ -109,29 +109,3 @@ print(y)'''
 #     print(x,"/",y,"=",div(x,y))
 
 
-# map function()= jab saare objects ke upar same operations perform krna hota hai to map function ka use hota hai
-# list1=[5,10,15,20,25]
-# def add(n):
-#     return n+5
-# x=map(add,list1)
-# print(x)
-# print(tuple(x))
-# print(list(x))
-
-
-# my_list=[10,25,30,45,50,65,70,85,23]
-# def odd_even(n):
-#     if n%2==0:
-#         return 'even'
-#     else:
-#         return 'odd'
-# x=list(map(odd_even,my_list))
-# print(x)
-
-# filter function()=jb operation kuch item ke upar perform krna ho tb filter function ka use hota hai
-my_list=[10,25,30,45,50,65,70,85,90]
-def even(n):
-    if n%2==0:
-       return 'true'
-x=list(filter(even,my_list))
-print(x)
