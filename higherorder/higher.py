@@ -51,8 +51,8 @@ from functools import reduce
 # x=list(map(odd_even,my_list))
 # print(x)
 
-org_list = [1, 2, 3, 4, 5]
-def cube(num):
-    return num**3
-fin_list = list(map(cube, org_list))
-print(fin_list)
+# org_list = [1, 2, 3, 4, 5]
+# def cube(num):
+#     return num**3
+# fin_list = list(map(cube, org_list))
+# print(fin_list)
