@@ -56,3 +56,8 @@ from functools import reduce
 #     return num**3
 # fin_list = list(map(cube, org_list))
 # print(fin_list)
+
+# lambda function = They're commonly referred to as anonymous functions.
+# Notice that the anonymous function does not have a return keyword. 
+# This is because the anonymous function will automatically return the
+#  result of the expression in the function once it is executed.
