@@ -42,7 +42,7 @@ from functools import reduce
 # print(cube(6))
 
 
-
+# reduce = 
 # my_list=[12,34,56,78,90,89]
 # def max(x,y):
 #     if x>y:
