@@ -33,13 +33,13 @@ from functools import reduce
 #  result of the expression in the function once it is executed.
 # that can take any number of arguments but, unlike normal functions,
 #  evaluates and returns only one expression.
-calc = lambda num: "Even number" if num % 2 == 0 else "Odd number"
-print(calc(20))
+# calc = lambda num: "Even number" if num % 2 == 0 else "Odd number"
+# print(calc(20))
 
-def cube(c):
-	return c*c*c
-l_cube = lambda c: c*c*c
-print(cube(6))
+# def cube(c):
+# 	return c*c*c
+# l_cube = lambda c: c*c*c
+# print(cube(6))
 
 
 
