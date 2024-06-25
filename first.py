@@ -69,11 +69,4 @@ print(type(str))'''
 #         print(i*i)
 # square(10)
 
-# generator way of function
-# yeild is keyword which is used to generate generator instance ,this can be used in place of return 
-def square(num):
-    for i in range (1,num+1):
-        yield i*i
-data=square(10)
-for i in data:
-    print(i)
+

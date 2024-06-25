@@ -74,3 +74,4 @@ from functools import reduce
 #      return x*x-1
 # x=reduce()
 # print(x)
+
