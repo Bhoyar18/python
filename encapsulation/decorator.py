@@ -25,16 +25,16 @@
 #     print("Execution.......")
 # hello()
 
-def one(a,b):
-    print(a/b)
-def new_one(func):
-    def two(a,b):
-     if a<b:
-        a,b=b,a
-     return func(a,b)
-    return two
-obj=new_one(one)
-one(10,5)
+# def one(a,b):
+#     print(a/b)
+# def new_one(func):
+#     def two(a,b):
+#      if a<b:
+#         a,b=b,a
+#      return func(a,b)
+#     return two
+# obj=new_one(one)
+# one(10,5)
 
 
         
@@ -47,9 +47,9 @@ one(10,5)
 # generator way of function
 # yeild is keyword which is used to generate generator instance ,
 # this can be used in place of return 
-# def square(num):
-#     for i in range (1,num+1):
-#         yield i*i
-# data=square(10)
-# for i in data:
-#     print(i)
+def square(num):
+    for i in range (1,num+1):
+        yield i*i
+data=square(10)
+for i in data:
+    print(i)
