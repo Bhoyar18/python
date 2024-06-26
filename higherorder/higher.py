@@ -1,5 +1,5 @@
 from functools import reduce
-
+# Higher order functions :The functions which takes other functions as an argument
 
 # map function()= jab saare objects ke upar same operations 
 # perform krna hota hai to map function ka use hota hai
