@@ -77,6 +77,17 @@ from functools import reduce
 # print(list(number))
 # print(tuple(numbers2))
 
+nums=[1,2,4,5,6,8,9,10]
+update1=(filter(lambda n:n%2==0,nums))
+update2=(map(lambda n:n+2,update1))
+print(tuple(update2))
+
+nums=[1,2,4,5,6,8,9,10]
+update1=(filter(lambda n:n%2==0,nums))
+update2=(map(lambda n:n+2,nums))
+print(tuple(update1))
+print(tuple(update2))
+
 # ===================================================================
 
 # Lambda function = They're commonly referred to as anonymous(defined without a name) functions.
