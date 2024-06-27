@@ -26,6 +26,15 @@ from functools import reduce
 # fin_list = list(map(cube, org_list))
 # print(fin_list)
 
+# Filter = filter function in Python is a built-in function that creates
+#  a new list from an existing one, keeping only those elements that satisfy a certain condition.
+numbers=[24,56,78,97,65,43,90]
+def even(n):
+    return n%2==0
+result=filter(even,numbers)
+print(tuple(result))
+
+
 
 # lambda function = They're commonly referred to as anonymous(defined without a name) functions.
 # Notice that the anonymous function does not have a return keyword. 
