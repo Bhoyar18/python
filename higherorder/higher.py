@@ -28,12 +28,17 @@ from functools import reduce
 
 # Filter = filter function in Python is a built-in function that creates
 #  a new list from an existing one, keeping only those elements that satisfy a certain condition.
-numbers=[24,56,78,97,65,43,90]
-def even(n):
-    return n%2==0
-result=filter(even,numbers)
-print(tuple(result))
+# numbers=[24,56,78,97,65,43,90]
+# def even(n):
+#     return n%2==0
+# result=filter(even,numbers)
+# print(tuple(result))
 
+numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13]
+def find(num):
+    return num<5 or num>10
+filtered=filter(find,numbers)
+print(list(filtered))
 
 
 # lambda function = They're commonly referred to as anonymous(defined without a name) functions.
