@@ -42,6 +42,16 @@ from functools import reduce
 # filtered=filter(find,numbers)
 # print(list(filtered))
 
+def hello(n):
+    return n%2==0
+number =[11,12,13,14,1,6]
+# filtered=filter(hello,number)
+# print(tuple(filtered))
+    #      or
+filtered=tuple(filter(hello,number))
+print(filtered)
+
+
 # Combining Filter with Other Functions =>
 # example=[11,12,13,14,15,16,17,18]
 # def square(n):
@@ -76,7 +86,7 @@ from functools import reduce
 
 # ==================================================================
 
-# reduce = 
+# Reduce = 
 # my_list=[12,34,56,78,90,89]
 # def max(x,y):
 #     if x>y:
