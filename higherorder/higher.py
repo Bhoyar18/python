@@ -26,6 +26,15 @@ from functools import reduce
 # fin_list = list(map(cube, org_list))
 # print(fin_list)
 
+# def add(n):
+#     if n<5:
+#         return n+2
+#     elif n>5:
+#         return n*2
+# num=(1,2,3,4,5,6,7,8)
+# result=map(add,num)
+# print(list(result))
+
 # ========================================================================
 
 # Filter = filter function in Python is a built-in function that creates
@@ -42,14 +51,14 @@ from functools import reduce
 # filtered=filter(find,numbers)
 # print(list(filtered))
 
-def hello(n):
-    return n%2==0
-number =[11,12,13,14,1,6]
-# filtered=filter(hello,number)
-# print(tuple(filtered))
-    #      or
-filtered=tuple(filter(hello,number))
-print(filtered)
+# def hello(n):
+#     return n%2==0
+# number =[11,12,13,14,1,6]
+# # filtered=filter(hello,number)
+# # print(tuple(filtered))
+#     #      or
+# filtered=tuple(filter(hello,number))
+# print(filtered)
 
 
 # Combining Filter with Other Functions =>
@@ -76,6 +85,7 @@ print(filtered)
 #  result of the expression in the function once it is executed.
 # that can take any number of arguments but, unlike normal functions,
 #  evaluates and returns only one expression.
+
 # calc = lambda num: "Even number" if num % 2 == 0 else "Odd number"
 # print(calc(20))
 
