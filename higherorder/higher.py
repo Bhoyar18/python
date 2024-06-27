@@ -1,7 +1,7 @@
 from functools import reduce
 # Higher order functions :The functions which takes other functions as an argument
 
-# map function()= jab saare objects ke upar same operations 
+# Map Function()= jab saare objects ke upar same operations 
 # perform krna hota hai to map function ka use hota hai
 # list1=[5,10,15,20,25]
 # def add(n):
@@ -26,6 +26,8 @@ from functools import reduce
 # fin_list = list(map(cube, org_list))
 # print(fin_list)
 
+# ========================================================================
+
 # Filter = filter function in Python is a built-in function that creates
 #  a new list from an existing one, keeping only those elements that satisfy a certain condition.
 # numbers=[24,56,78,97,65,43,90]
@@ -34,14 +36,31 @@ from functools import reduce
 # result=filter(even,numbers)
 # print(tuple(result))
 
-numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13]
-def find(num):
-    return num<5 or num>10
-filtered=filter(find,numbers)
-print(list(filtered))
+# numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13]
+# def find(num):
+#     return num<5 or num>10
+# filtered=filter(find,numbers)
+# print(list(filtered))
 
+# Combining Filter with Other Functions =>
+# example=[11,12,13,14,15,16,17,18]
+# def square(n):
+#     return n*n
+# number=filter(lambda n:n%2!=0 ,example)
+# numbers2=map(square,number)
+# print(tuple(numbers2))
 
-# lambda function = They're commonly referred to as anonymous(defined without a name) functions.
+# example=[11,12,13,14,15,16,17,18]
+# def square(n):
+#     return n*n
+# number=filter(lambda n:n%2!=0 ,example)
+# numbers2=map(square,example)
+# print(list(number))
+# print(tuple(numbers2))
+
+# ===================================================================
+
+# Lambda function = They're commonly referred to as anonymous(defined without a name) functions.
 # Notice that the anonymous function does not have a return keyword. 
 # This is because the anonymous function will automatically return the
 #  result of the expression in the function once it is executed.
@@ -55,6 +74,7 @@ print(list(filtered))
 # l_cube = lambda c: c*c*c
 # print(cube(6))
 
+# ==================================================================
 
 # reduce = 
 # my_list=[12,34,56,78,90,89]
