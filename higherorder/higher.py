@@ -107,7 +107,8 @@ from functools import reduce
 
 # ==================================================================
 
-# Reduce = 
+# Reduce = The main purpose of the reduce method is to
+#  obtain a single outcome from an iterable by implementing some action
 # my_list=[12,34,56,78,90,89]
 # def max(x,y):
 #     if x>y:
@@ -134,9 +135,6 @@ from functools import reduce
 # x=reduce(sum,my_list)
 # print(x)    
 
-# n=int(input("Enter any number"))
-# def fact(x):
-#      return x*x-1
-# x=reduce()
-# print(x)
+factorial = (reduce(lambda x, y: x*y, range(1, 6)))
+print(factorial)
 
