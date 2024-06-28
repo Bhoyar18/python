@@ -1,5 +1,6 @@
 from functools import reduce
-# Higher order functions :The functions which takes other functions as an argument
+# Higher order functions :The functions which takes other functions as 
+# an argument.
 
 # Map Function()= jab saare objects ke upar same operations 
 # perform krna hota hai to map function ka use hota hai
@@ -88,7 +89,7 @@ from functools import reduce
 # print(tuple(update1))
 # print(tuple(update2))
 
-# ===================================================================
+# =======================================================================
 
 # Lambda function = They're commonly referred to as anonymous(defined without a name) functions.
 # Notice that the anonymous function does not have a return keyword. 
@@ -109,14 +110,14 @@ from functools import reduce
 
 # Reduce = The main purpose of the reduce method is to
 #  obtain a single outcome from an iterable by implementing some action
-# my_list=[12,34,56,78,90,89]
-# def max(x,y):
-#     if x>y:
-#         return x
-#     else:
-#         return y
-# x=reduce(max,my_list)
-# print(x)   
+my_list=[12,34,56,78,90,89]
+def max(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+x=reduce(max,my_list)
+print(x)   
 
 
 # my_list=[12,34,56,78,90,89]
@@ -135,6 +136,6 @@ from functools import reduce
 # x=reduce(sum,my_list)
 # print(x)    
 
-factorial = (reduce(lambda x, y: x*y, range(1, 6)))
-print(factorial)
+# factorial = (reduce(lambda x, y: x*y, range(1, 6)))
+# print(factorial)
 
