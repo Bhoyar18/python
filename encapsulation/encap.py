@@ -83,7 +83,7 @@ obj.accessPrivateFunction()
 # obj = Person("Vaishu", 22)
 # # accessing public data member
 # print("Name of the person is : ", obj.personName)
-# # calling public member function of the class
+# calling public member function of the class
 # obj.displayAge() 
 
 # Constructor
