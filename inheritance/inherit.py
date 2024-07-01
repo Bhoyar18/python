@@ -1,3 +1,19 @@
+# class and object
+# class = A class is a blueprint for creating objects. 
+# It defines the attributes and methods that all objects created from that class will have.
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+    def display(self):
+        print(f"The car is a {self.year} {self.make} {self.model}.")    
+# Creating Objects
+car1 = Car('Toyota', 'Corolla', 2018)
+car2 = Car('Honda', 'Civic', 2019)
+
+
+
 
 
 # Inheritance = Inheritance allows us to define a class that inherits all 
