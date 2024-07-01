@@ -21,7 +21,7 @@ from functools import reduce
 # x=list(map(odd_even,my_list))
 # print(x)
 
-# org_list = [1, 2, 3, 4, 5]
+# # org_list = [1, 2, 3, 4, 5]
 # def cube(num):
 #     return num**3
 # fin_list = list(map(cube, org_list))
@@ -94,7 +94,7 @@ from functools import reduce
 # Lambda function = They're commonly referred to as anonymous(defined without a name) functions.
 # Notice that the anonymous function does not have a return keyword. 
 # This is because the anonymous function will automatically return the
-#  result of the expression in the function once it is executed.
+# result of the expression in the function once it is executed.
 # that can take any number of arguments but, unlike normal functions,
 #  evaluates and returns only one expression.
 
@@ -109,15 +109,15 @@ from functools import reduce
 # ==================================================================
 
 # Reduce = The main purpose of the reduce method is to
-#  obtain a single outcome from an iterable by implementing some action
-my_list=[12,34,56,78,90,89]
-def max(x,y):
-    if x>y:
-        return x
-    else:
-        return y
-x=reduce(max,my_list)
-print(x)   
+# obtain a single outcome from an iterable by implementing some action
+# my_list=[12,34,56,78,90,89]
+# def max(x,y):
+#     if x>y:
+#         return x
+#     else:
+#         return y
+# x=reduce(max,my_list)
+# print(x)   
 
 
 # my_list=[12,34,56,78,90,89]
