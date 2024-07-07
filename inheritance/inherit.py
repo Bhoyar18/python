@@ -1,6 +1,10 @@
 # class and object
 # class = A class is a blueprint for creating objects. 
-# It defines the attributes and methods that all objects created from that class will have.
+# It defines the attributes and methods that all objects created 
+# from that class will have.
+# object = An object is an instance of a class. 
+# It has all the attributes and methods defined in the 
+# class.
 class Car:
     def __init__(self, make, model, year):
         self.make = make
